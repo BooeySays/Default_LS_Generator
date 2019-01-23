@@ -1,0 +1,8 @@
+#!/bin/bash
+
+1 - remove all ls aliases from .bashrc
+2 - configure new ls with default options
+3 - Remove a custom ls alias that you created.
+4 - Create another ls alias (ie: ll, ld, la, l, etc)
+5 - Help
+6 - About

@@ -1,0 +1,43 @@
+      '--author' '1) With -l, print the author of each file' 'off' \
+      '--file-type' '2) Likewise, except do not append \'*\'' 'off' \
+      '--full-time' '3) Like -l --time-style=full-iso' 'off' \
+      '--group-directories-first' '4) Group directories before files' 'off' \
+	  '--dereference-command-line-symlink-to-dir' '5) Ffollow each command line symbolic link that points to a directory' 'off' \
+
+
+
+
+
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+                             
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+      --si                   likewise, but use powers of 1000 not 1024
+      
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -1                         list one file per line.  Avoid '\n' with -q or -b
